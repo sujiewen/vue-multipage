@@ -1,6 +1,6 @@
 const SpritesmithPlugin = require("webpack-spritesmith");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-    .BundleAnalyzerPlugin;
+  .BundleAnalyzerPlugin;
 const webpack = require("webpack");
 
 const path = require("path");
@@ -93,33 +93,33 @@ module.exports = {
     if (has_sprite) {
       // 生成雪碧图
       plugins.push(
-          new SpritesmithPlugin({
-            src: {
-              cwd: path.resolve(__dirname, './src/assets/icons/'), // 图标根路径
-              glob: '**/*.png' // 匹配任意 png 图标
-            },
-            target: {
-              image: path.resolve(__dirname, './src/assets/images/sprites.png'), // 生成雪碧图目标路径与名称
-              // 设置生成CSS背景及其定位的文件或方式
-              css: [
-                [
-                  path.resolve(__dirname, './src/assets/scss/sprites.scss'),
-                  {
-                    format: 'function_based_template'
-                  }
-                ]
+        new SpritesmithPlugin({
+          src: {
+            cwd: path.resolve(__dirname, './src/assets/icons/'), // 图标根路径
+            glob: '**/*.png' // 匹配任意 png 图标
+          },
+          target: {
+            image: path.resolve(__dirname, './src/assets/images/sprites.png'), // 生成雪碧图目标路径与名称
+            // 设置生成CSS背景及其定位的文件或方式
+            css: [
+              [
+                path.resolve(__dirname, './src/assets/scss/sprites.scss'),
+                {
+                  format: 'function_based_template'
+                }
               ]
-            },
-            customTemplates: {
-              function_based_template: SpritesmithTemplate
-            },
-            apiOptions: {
-              cssImageRef: '../images/sprites.png' // css文件中引用雪碧图的相对位置路径配置
-            },
-            spritesmithOptions: {
-              padding: 2
-            }
-          })
+            ]
+          },
+          customTemplates: {
+            function_based_template: SpritesmithTemplate
+          },
+          apiOptions: {
+            cssImageRef: '../images/sprites.png' // css文件中引用雪碧图的相对位置路径配置
+          },
+          spritesmithOptions: {
+            padding: 2
+          }
+        })
       )
     }
 
@@ -141,27 +141,27 @@ module.exports = {
     // config.plugins.delete('prefetch');
 
     config
-        .plugin("ignore")
-        .use(
-            new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /zh-cn$/)
-        );
+      .plugin("ignore")
+      .use(
+        new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /zh-cn$/)
+      );
 
     // 添加别名
     config.resolve.alias
-        .set("vue$", "vue/dist/vue.esm.js")
-        .set("@", resolve("src"))
-        .set("@apis", resolve("src/apis"))
-        .set("@assets", resolve("src/assets"))
-        .set("@scss", resolve("src/assets/scss"))
-        .set("@components", resolve("src/components"))
-        .set("@middlewares", resolve("src/middlewares"))
-        .set("@mixins", resolve("src/mixins"))
-        .set("@plugins", resolve("src/plugins"))
-        .set("@router", resolve("src/router"))
-        .set("@store", resolve("src/store"))
-        .set("@utils", resolve("src/utils"))
-        .set("@views", resolve("src/views"))
-        .set("@layouts", resolve("src/layouts"));
+      .set("vue$", "vue/dist/vue.esm.js")
+      .set("@", resolve("src"))
+      .set("@apis", resolve("src/apis"))
+      .set("@assets", resolve("src/assets"))
+      .set("@scss", resolve("src/assets/scss"))
+      .set("@components", resolve("src/components"))
+      .set("@middlewares", resolve("src/middlewares"))
+      .set("@mixins", resolve("src/mixins"))
+      .set("@plugins", resolve("src/plugins"))
+      .set("@router", resolve("src/router"))
+      .set("@store", resolve("src/store"))
+      .set("@utils", resolve("src/utils"))
+      .set("@views", resolve("src/views"))
+      .set("@layouts", resolve("src/layouts"));
 
     const cdn = {
       // 访问https://unpkg.com/element-ui/lib/theme-chalk/index.css获取最新版本
@@ -203,16 +203,16 @@ module.exports = {
     if (IS_PROD) {
       // 压缩图片
       config.module
-          .rule("images")
-          .test(/\.(png|jpe?g|gif|svg)(\?.*)?$/)
-          .use("image-webpack-loader")
-          .loader("image-webpack-loader")
-          .options({
-            mozjpeg: { progressive: true, quality: 65 },
-            optipng: { enabled: false },
-            pngquant: { quality: [0.65, 0.90], speed: 4 },
-            gifsicle: { interlaced: false }
-          });
+        .rule("images")
+        .test(/\.(png|jpe?g|gif|svg)(\?.*)?$/)
+        .use("image-webpack-loader")
+        .loader("image-webpack-loader")
+        .options({
+          mozjpeg: { progressive: true, quality: 65 },
+          optipng: { enabled: false },
+          pngquant: { quality: [0.65, 0.90], speed: 4 },
+          gifsicle: { interlaced: false }
+        });
 
       // 打包分析
       config.plugin("webpack-report").use(BundleAnalyzerPlugin, [
@@ -227,12 +227,12 @@ module.exports = {
     svgRule.uses.clear();
     svgRule.exclude.add(/node_modules/);
     svgRule
-        .test(/\.svg$/)
-        .use("svg-sprite-loader")
-        .loader("svg-sprite-loader")
-        .options({
-          symbolId: "icon-[name]"
-        });
+      .test(/\.svg$/)
+      .use("svg-sprite-loader")
+      .loader("svg-sprite-loader")
+      .options({
+        symbolId: "icon-[name]"
+      });
 
     const imagesRule = config.module.rule("images");
     imagesRule.exclude.add(resolve("src/icons"));
@@ -275,7 +275,7 @@ module.exports = {
     proxy: {
       "/api": {
         target:
-            "https://www.easy-mock.com/mock/5bc75b55dc36971c160cad1b/sheets", // 目标代理接口地址
+          "https://www.easy-mock.com/mock/5bc75b55dc36971c160cad1b/sheets", // 目标代理接口地址
         secure: false,
         changeOrigin: true, // 开启代理，在本地创建一个虚拟服务端
         // ws: true, // 是否启用websockets
