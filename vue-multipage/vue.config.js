@@ -30,13 +30,13 @@ module.exports = {
   publicPath: './',
   lintOnSave: false, // 禁用eslint
   productionSourceMap: false,
-  pages:pages,
+  pages: pages,
   devServer: {
     index: 'page1.html', // 默认启动serve 打开index页面
     open: true,
     host: '0.0.0.0',
     port: 8080,
     https: false,
-    hotOnly: false,
+    hotOnly: false
   }
 }

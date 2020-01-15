@@ -8,6 +8,13 @@
     </p>
     <h3>Installed CLI Plugins2324423243</h3>
     <ul>
+      <li>
+        <div>
+          <img src="@/assets/60.png"/>
+        </div>
+      </li>
+    </ul>
+    <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
     </ul>
