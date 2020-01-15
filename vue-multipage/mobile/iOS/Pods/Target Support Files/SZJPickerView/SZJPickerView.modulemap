@@ -1,0 +1,6 @@
+framework module SZJPickerView {
+  umbrella header "SZJPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

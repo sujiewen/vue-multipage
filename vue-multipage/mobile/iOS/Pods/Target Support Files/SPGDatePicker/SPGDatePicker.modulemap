@@ -1,0 +1,6 @@
+framework module SPGDatePicker {
+  umbrella header "SPGDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

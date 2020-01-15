@@ -1,3 +1,8 @@
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+//   .BundleAnalyzerPlugin
+//
+// const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
+
 let path = require('path')
 let glob = require('glob')
 

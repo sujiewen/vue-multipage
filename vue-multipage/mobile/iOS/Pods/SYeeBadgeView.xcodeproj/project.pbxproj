@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A43101DF1783DCBD6883A36BCDA15C /* YeeBadgeViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 381710CDD89A32D531BF374B3C2C5BBF /* YeeBadgeViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3349DF9C272239A0B0F2412B6102E2FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8AFE7B4F5E20B7CF6A67F5C888194E /* Foundation.framework */; };
+		394E99C46FC76A20548B2C78DBA41100 /* YeeBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC6E9F87A7F451A9979684E1013C234 /* YeeBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48438463A7AF5EC0E230DF2713CEC3A9 /* SYeeBadgeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 728EB8EA4C300F5C0C419AA6E6D20DA3 /* SYeeBadgeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A70E9405D920CE78560BBC738682C06 /* UIBarButtonItem+YeeBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0209CBB6C152FFD42C9B3C913CD5EB /* UIBarButtonItem+YeeBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F407C099B7D4E2A77DE1D60594887C8 /* UITabBarItem+YeeBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 17989037E0BD8CFBD5B5933F5AA3190F /* UITabBarItem+YeeBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661C24A6AB760D044D247163299A0FCB /* YeeBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2190CAC1D596B71BFB814E0F09FDE0F7 /* YeeBadgeView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7686B039B3D6DD4E9563F6152A6F8579 /* YeeBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E77D3C5BC2C294F4945CA51AAF75CB9F /* YeeBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C602B925C9D80258A9FD8237BF8ED52 /* UIBarButtonItem+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC6C49EA22FB53D22A3791FBD5C6B2 /* UIBarButtonItem+YeeBadge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1B1D74A0D34A5078B4A893B854A49DA /* SYeeBadgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD399308ED1D85CD16BA88DC7D27EEF /* SYeeBadgeView-dummy.m */; };
+		C358140BA9044C881AD596BB5C9F7D70 /* UIView+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = F24CAF8AF0E606657D4F61A4FC4018A0 /* UIView+YeeBadge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D33724E46549D769B71D03A471B16D6D /* UIView+YeeBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB0F642FDF6D900F36A2B632A68D5ED /* UIView+YeeBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9AA6498EE222D4D0C7E3571DB7A1548 /* UITabBarItem+YeeBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAE02F8BE509AF590AC66D96CAFC75F /* UITabBarItem+YeeBadge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057C5BC8965A3F6FCAA7A80269EF6BD9 /* SYeeBadgeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYeeBadgeView-prefix.pch"; sourceTree = "<group>"; };
+		0BFBDB06C68D76488C6A102C7D379D97 /* SYeeBadgeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYeeBadgeView-Info.plist"; sourceTree = "<group>"; };
+		17989037E0BD8CFBD5B5933F5AA3190F /* UITabBarItem+YeeBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+YeeBadge.h"; path = "YeeBadgeView/UITabBarItem+YeeBadge.h"; sourceTree = "<group>"; };
+		2190CAC1D596B71BFB814E0F09FDE0F7 /* YeeBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YeeBadgeView.m; path = YeeBadgeView/YeeBadgeView.m; sourceTree = "<group>"; };
+		381710CDD89A32D531BF374B3C2C5BBF /* YeeBadgeViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YeeBadgeViewHeader.h; path = YeeBadgeView/YeeBadgeViewHeader.h; sourceTree = "<group>"; };
+		3EC6E9F87A7F451A9979684E1013C234 /* YeeBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YeeBadgeProtocol.h; path = YeeBadgeView/YeeBadgeProtocol.h; sourceTree = "<group>"; };
+		4B34DF48590F81A1D301FB0DAD1D20E1 /* SYeeBadgeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYeeBadgeView.xcconfig; sourceTree = "<group>"; };
+		4F0209CBB6C152FFD42C9B3C913CD5EB /* UIBarButtonItem+YeeBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+YeeBadge.h"; path = "YeeBadgeView/UIBarButtonItem+YeeBadge.h"; sourceTree = "<group>"; };
+		4FB0F642FDF6D900F36A2B632A68D5ED /* UIView+YeeBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YeeBadge.h"; path = "YeeBadgeView/UIView+YeeBadge.h"; sourceTree = "<group>"; };
+		51761E76F3FBA7897375E38EC8D885D7 /* SYeeBadgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYeeBadgeView.framework; path = SYeeBadgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEC6C49EA22FB53D22A3791FBD5C6B2 /* UIBarButtonItem+YeeBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+YeeBadge.m"; path = "YeeBadgeView/UIBarButtonItem+YeeBadge.m"; sourceTree = "<group>"; };
+		728EB8EA4C300F5C0C419AA6E6D20DA3 /* SYeeBadgeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYeeBadgeView-umbrella.h"; sourceTree = "<group>"; };
+		AD8AFE7B4F5E20B7CF6A67F5C888194E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D032CA913EA8E954653FEED49008C41A /* SYeeBadgeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYeeBadgeView.modulemap; sourceTree = "<group>"; };
+		DDAE02F8BE509AF590AC66D96CAFC75F /* UITabBarItem+YeeBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+YeeBadge.m"; path = "YeeBadgeView/UITabBarItem+YeeBadge.m"; sourceTree = "<group>"; };
+		E77D3C5BC2C294F4945CA51AAF75CB9F /* YeeBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YeeBadgeView.h; path = YeeBadgeView/YeeBadgeView.h; sourceTree = "<group>"; };
+		ECD399308ED1D85CD16BA88DC7D27EEF /* SYeeBadgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYeeBadgeView-dummy.m"; sourceTree = "<group>"; };
+		F24CAF8AF0E606657D4F61A4FC4018A0 /* UIView+YeeBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YeeBadge.m"; path = "YeeBadgeView/UIView+YeeBadge.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23B9D579C66543FF0CCB3B12497C973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349DF9C272239A0B0F2412B6102E2FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6ECE7DDC1AE39D5A544A47C0DA6D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51761E76F3FBA7897375E38EC8D885D7 /* SYeeBadgeView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C26E8C7A3EBC8BC9ABB3DEF60F1D8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D032CA913EA8E954653FEED49008C41A /* SYeeBadgeView.modulemap */,
+				4B34DF48590F81A1D301FB0DAD1D20E1 /* SYeeBadgeView.xcconfig */,
+				ECD399308ED1D85CD16BA88DC7D27EEF /* SYeeBadgeView-dummy.m */,
+				0BFBDB06C68D76488C6A102C7D379D97 /* SYeeBadgeView-Info.plist */,
+				057C5BC8965A3F6FCAA7A80269EF6BD9 /* SYeeBadgeView-prefix.pch */,
+				728EB8EA4C300F5C0C419AA6E6D20DA3 /* SYeeBadgeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYeeBadgeView";
+			sourceTree = "<group>";
+		};
+		59AF5A59DDFD95C668F796C0257FC0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669F6FE81D7852EA8AC03C7718A59661 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		669F6FE81D7852EA8AC03C7718A59661 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD8AFE7B4F5E20B7CF6A67F5C888194E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ADE73DE2FCEADB159011BA7BE60D8AAC = {
+			isa = PBXGroup;
+			children = (
+				59AF5A59DDFD95C668F796C0257FC0FE /* Frameworks */,
+				0A6ECE7DDC1AE39D5A544A47C0DA6D34 /* Products */,
+				C13576F50A154DDAEC4979D10160BFA8 /* SYeeBadgeView */,
+			);
+			sourceTree = "<group>";
+		};
+		C13576F50A154DDAEC4979D10160BFA8 /* SYeeBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				4F0209CBB6C152FFD42C9B3C913CD5EB /* UIBarButtonItem+YeeBadge.h */,
+				6CEC6C49EA22FB53D22A3791FBD5C6B2 /* UIBarButtonItem+YeeBadge.m */,
+				17989037E0BD8CFBD5B5933F5AA3190F /* UITabBarItem+YeeBadge.h */,
+				DDAE02F8BE509AF590AC66D96CAFC75F /* UITabBarItem+YeeBadge.m */,
+				4FB0F642FDF6D900F36A2B632A68D5ED /* UIView+YeeBadge.h */,
+				F24CAF8AF0E606657D4F61A4FC4018A0 /* UIView+YeeBadge.m */,
+				3EC6E9F87A7F451A9979684E1013C234 /* YeeBadgeProtocol.h */,
+				E77D3C5BC2C294F4945CA51AAF75CB9F /* YeeBadgeView.h */,
+				2190CAC1D596B71BFB814E0F09FDE0F7 /* YeeBadgeView.m */,
+				381710CDD89A32D531BF374B3C2C5BBF /* YeeBadgeViewHeader.h */,
+				58C26E8C7A3EBC8BC9ABB3DEF60F1D8D /* Support Files */,
+			);
+			name = SYeeBadgeView;
+			path = SYeeBadgeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A616F5567EDCB7BD05A24B6FB35482F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48438463A7AF5EC0E230DF2713CEC3A9 /* SYeeBadgeView-umbrella.h in Headers */,
+				5A70E9405D920CE78560BBC738682C06 /* UIBarButtonItem+YeeBadge.h in Headers */,
+				5F407C099B7D4E2A77DE1D60594887C8 /* UITabBarItem+YeeBadge.h in Headers */,
+				D33724E46549D769B71D03A471B16D6D /* UIView+YeeBadge.h in Headers */,
+				394E99C46FC76A20548B2C78DBA41100 /* YeeBadgeProtocol.h in Headers */,
+				7686B039B3D6DD4E9563F6152A6F8579 /* YeeBadgeView.h in Headers */,
+				22A43101DF1783DCBD6883A36BCDA15C /* YeeBadgeViewHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39585C851FCA9BB19CF50DB43DD792A2 /* SYeeBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DF8202C7215D32DF221FE8A97C00CF /* Build configuration list for PBXNativeTarget "SYeeBadgeView" */;
+			buildPhases = (
+				A616F5567EDCB7BD05A24B6FB35482F4 /* Headers */,
+				AB3A84E468CF72959B21EC6865834D99 /* Sources */,
+				F23B9D579C66543FF0CCB3B12497C973 /* Frameworks */,
+				CC78080AEE22D91299DAABFF9539D51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYeeBadgeView;
+			productName = SYeeBadgeView;
+			productReference = 51761E76F3FBA7897375E38EC8D885D7 /* SYeeBadgeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4CE52B3DF734AE518556A1059F130A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 6D6195244B0E36BEA4203FA759F5E06A /* Build configuration list for PBXProject "SYeeBadgeView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADE73DE2FCEADB159011BA7BE60D8AAC;
+			productRefGroup = 0A6ECE7DDC1AE39D5A544A47C0DA6D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39585C851FCA9BB19CF50DB43DD792A2 /* SYeeBadgeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC78080AEE22D91299DAABFF9539D51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3A84E468CF72959B21EC6865834D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B1D74A0D34A5078B4A893B854A49DA /* SYeeBadgeView-dummy.m in Sources */,
+				8C602B925C9D80258A9FD8237BF8ED52 /* UIBarButtonItem+YeeBadge.m in Sources */,
+				F9AA6498EE222D4D0C7E3571DB7A1548 /* UITabBarItem+YeeBadge.m in Sources */,
+				C358140BA9044C881AD596BB5C9F7D70 /* UIView+YeeBadge.m in Sources */,
+				661C24A6AB760D044D247163299A0FCB /* YeeBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B3FB392DEA3463E659C129A7E527ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B34DF48590F81A1D301FB0DAD1D20E1 /* SYeeBadgeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYeeBadgeView/SYeeBadgeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYeeBadgeView/SYeeBadgeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SYeeBadgeView/SYeeBadgeView.modulemap";
+				PRODUCT_MODULE_NAME = SYeeBadgeView;
+				PRODUCT_NAME = SYeeBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		621150903C69028835449A923D7BC945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE158AC20FFC13496163ED8CC31D44F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE6A0B65ADBB0F534585D1024998B5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B34DF48590F81A1D301FB0DAD1D20E1 /* SYeeBadgeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYeeBadgeView/SYeeBadgeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYeeBadgeView/SYeeBadgeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SYeeBadgeView/SYeeBadgeView.modulemap";
+				PRODUCT_MODULE_NAME = SYeeBadgeView;
+				PRODUCT_NAME = SYeeBadgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12DF8202C7215D32DF221FE8A97C00CF /* Build configuration list for PBXNativeTarget "SYeeBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B3FB392DEA3463E659C129A7E527ED4 /* Debug */,
+				FE6A0B65ADBB0F534585D1024998B5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6195244B0E36BEA4203FA759F5E06A /* Build configuration list for PBXProject "SYeeBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE158AC20FFC13496163ED8CC31D44F4 /* Debug */,
+				621150903C69028835449A923D7BC945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4CE52B3DF734AE518556A1059F130A /* Project object */;
+}
