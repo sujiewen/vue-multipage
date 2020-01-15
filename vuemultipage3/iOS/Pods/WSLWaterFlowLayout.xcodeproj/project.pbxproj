@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087B46ABAE41D938660A209F413F3C2F /* WSLWaterFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14733768D1C120AA82532F99504E6A91 /* WSLWaterFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526A522EBC721C8A876EF2788A2A2DC9 /* WSLWaterFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ACFEBBDD96630495346F8D29F2F8C8 /* WSLWaterFlowLayout-dummy.m */; };
+		6B0DA5E81CED3789CA65FCD249DA36D7 /* WSLWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6C6118C208CB5B9467FB844DBE5405 /* WSLWaterFlowLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80E7D31A61B61CED4E015C258AFD9469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451C2A373FDA909E55D184BA3C4AC5E3 /* Foundation.framework */; };
+		D5DC3F0439E0F2C27CD4521D8621479B /* WSLWaterFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E93A09ED5F4B23ABC4FA4349650D1D /* WSLWaterFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14733768D1C120AA82532F99504E6A91 /* WSLWaterFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSLWaterFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		1ADBE32A7D00D69FA5BDF6240CAAC233 /* WSLWaterFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSLWaterFlowLayout.modulemap; sourceTree = "<group>"; };
+		451C2A373FDA909E55D184BA3C4AC5E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BD9F5AD1324DEC3BA033A7B9B326030 /* WSLWaterFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSLWaterFlowLayout.xcconfig; sourceTree = "<group>"; };
+		5C739F94CAE05083FA1E26520DDA39A0 /* WSLWaterFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSLWaterFlowLayout.framework; path = WSLWaterFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F85607CF23EB4E46AA26B1ED5FB7601 /* WSLWaterFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSLWaterFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		98ACFEBBDD96630495346F8D29F2F8C8 /* WSLWaterFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSLWaterFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		BC6C6118C208CB5B9467FB844DBE5405 /* WSLWaterFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSLWaterFlowLayout.m; path = collectionView/WSLWaterFlowLayout/WSLWaterFlowLayout.m; sourceTree = "<group>"; };
+		EA2AD4A60089D2FF65CB6C0DDD108345 /* WSLWaterFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSLWaterFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		F4E93A09ED5F4B23ABC4FA4349650D1D /* WSLWaterFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSLWaterFlowLayout.h; path = collectionView/WSLWaterFlowLayout/WSLWaterFlowLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9596921483F8E7AB968CA1B4FEEE9DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E7D31A61B61CED4E015C258AFD9469 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034016D24250AB5613B303DF64CA3898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22143BB8DF8AB6ACA6DB554E028B6B7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F6E1333237441AAF4E2055717E84EDF /* WSLWaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F4E93A09ED5F4B23ABC4FA4349650D1D /* WSLWaterFlowLayout.h */,
+				BC6C6118C208CB5B9467FB844DBE5405 /* WSLWaterFlowLayout.m */,
+				53B4EDB02A4AA036A6621EF56A0F780C /* Support Files */,
+			);
+			name = WSLWaterFlowLayout;
+			path = WSLWaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		53B4EDB02A4AA036A6621EF56A0F780C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBE32A7D00D69FA5BDF6240CAAC233 /* WSLWaterFlowLayout.modulemap */,
+				5BD9F5AD1324DEC3BA033A7B9B326030 /* WSLWaterFlowLayout.xcconfig */,
+				98ACFEBBDD96630495346F8D29F2F8C8 /* WSLWaterFlowLayout-dummy.m */,
+				6F85607CF23EB4E46AA26B1ED5FB7601 /* WSLWaterFlowLayout-Info.plist */,
+				EA2AD4A60089D2FF65CB6C0DDD108345 /* WSLWaterFlowLayout-prefix.pch */,
+				14733768D1C120AA82532F99504E6A91 /* WSLWaterFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WSLWaterFlowLayout";
+			sourceTree = "<group>";
+		};
+		D455EEBB3B5D1BD453B0F413FC02EEDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C739F94CAE05083FA1E26520DDA39A0 /* WSLWaterFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBF7A0A32986E6879BEE24A8DD0E032 = {
+			isa = PBXGroup;
+			children = (
+				034016D24250AB5613B303DF64CA3898 /* Frameworks */,
+				D455EEBB3B5D1BD453B0F413FC02EEDD /* Products */,
+				2F6E1333237441AAF4E2055717E84EDF /* WSLWaterFlowLayout */,
+			);
+			sourceTree = "<group>";
+		};
+		F22143BB8DF8AB6ACA6DB554E028B6B7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				451C2A373FDA909E55D184BA3C4AC5E3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F780C285C6BA99F592959A423A9097C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087B46ABAE41D938660A209F413F3C2F /* WSLWaterFlowLayout-umbrella.h in Headers */,
+				D5DC3F0439E0F2C27CD4521D8621479B /* WSLWaterFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CFFE553B8AB61650C399BB8E0A88F94 /* WSLWaterFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9232D559FBEFFC8B8B686C184C2F7A /* Build configuration list for PBXNativeTarget "WSLWaterFlowLayout" */;
+			buildPhases = (
+				F780C285C6BA99F592959A423A9097C6 /* Headers */,
+				7B99C59E56486DC21247B4E1EAACBE6D /* Sources */,
+				9596921483F8E7AB968CA1B4FEEE9DF3 /* Frameworks */,
+				1A79E1910310B28DDB19BA28AE00F67D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLWaterFlowLayout;
+			productName = WSLWaterFlowLayout;
+			productReference = 5C739F94CAE05083FA1E26520DDA39A0 /* WSLWaterFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE47796C6E37466CFD4F1A11C2E1247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = D59CC37C10E7E672D2DB2C76C6ADDEE3 /* Build configuration list for PBXProject "WSLWaterFlowLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEBF7A0A32986E6879BEE24A8DD0E032;
+			productRefGroup = D455EEBB3B5D1BD453B0F413FC02EEDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CFFE553B8AB61650C399BB8E0A88F94 /* WSLWaterFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A79E1910310B28DDB19BA28AE00F67D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B99C59E56486DC21247B4E1EAACBE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526A522EBC721C8A876EF2788A2A2DC9 /* WSLWaterFlowLayout-dummy.m in Sources */,
+				6B0DA5E81CED3789CA65FCD249DA36D7 /* WSLWaterFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B5DD90E685670B89B826201F2892CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		112D451E924E287012A336EFF6FA1D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DAD88CD91224D4B422DDBCC87F95F52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD9F5AD1324DEC3BA033A7B9B326030 /* WSLWaterFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = WSLWaterFlowLayout;
+				PRODUCT_NAME = WSLWaterFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD5631585E7FFFAE4DDFE67E94A1C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD9F5AD1324DEC3BA033A7B9B326030 /* WSLWaterFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WSLWaterFlowLayout/WSLWaterFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = WSLWaterFlowLayout;
+				PRODUCT_NAME = WSLWaterFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9232D559FBEFFC8B8B686C184C2F7A /* Build configuration list for PBXNativeTarget "WSLWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5631585E7FFFAE4DDFE67E94A1C765 /* Debug */,
+				DAD88CD91224D4B422DDBCC87F95F52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59CC37C10E7E672D2DB2C76C6ADDEE3 /* Build configuration list for PBXProject "WSLWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5DD90E685670B89B826201F2892CAE /* Debug */,
+				112D451E924E287012A336EFF6FA1D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE47796C6E37466CFD4F1A11C2E1247 /* Project object */;
+}
