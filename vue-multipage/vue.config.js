@@ -37,7 +37,7 @@ module.exports = {
   productionSourceMap: false,
   pages: pages,
   devServer: {
-    index: 'page1.html', // 默认启动serve 打开index页面
+    index: 'index.html', // 默认启动serve 打开index页面
     open: true,
     host: '0.0.0.0',
     port: 8080,

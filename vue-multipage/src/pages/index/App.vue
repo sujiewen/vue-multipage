@@ -3,8 +3,12 @@
     <div id="nav">
       <router-link to="/">home</router-link> |
       <router-link to="/about">about</router-link> |
+      <router-link to="/test">test</router-link> |
       <a href="page1.html">page1</a> |
       <a href="page2.html">page2</a>
+<!--      <div id="components-demo">-->
+<!--        <button-counter></button-counter>-->
+<!--      </div>-->
     </div>
     <router-view/>
   </div>
